@@ -87,6 +87,7 @@ if (condition) {
 }
 ```
 
+typical if else statement...
 
 For
 ```kt
@@ -99,6 +100,28 @@ for (i in 0..<10) {
 syntax: for (<loopVar: <T>> in <Iterable<T>>) {
   loop content
 }
+```
+
+While
+it's like for, but with a condition.
+```
+// C like for loop
+var i = 0
+while (i < 10) {
+  do something...
+  i++
+}
+```
+
+## String substitution
+
+$ in string, content will be replaced with value. Auto string conversion
+```kt
+val i = 42;
+// if a variable,
+val str = "Hello $i"
+// if an expression
+val str2 = "${i + 27}, Nice!"
 ```
 
 
